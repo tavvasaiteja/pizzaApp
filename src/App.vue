@@ -10,7 +10,7 @@
                 <b-card-text>
                   <p id="hide">{{index}}</p>
                   <p><span class ="left"> OrderId :</span><span class="right">{{item.orderId}}</span></p>
-                  <p><span class ="left">No Of Items :</span><span class="right">{{item.Number_of_Items}}</span></p>
+                  <p><span class ="left">No Of Items :</span><span class="right">{{item.Items}}</span></p>
                   <p><span class ="left">Order Value :</span><span class="right">{{item.orderValue}}</span></p>
                   <p><span class ="left">Order Date :</span><span class="right">{{item.orderedDate}}</span></p>
                   <p><span class ="left">Order Status :</span><span class="right">{{item.orderStatus}}</span></p><br>
@@ -37,7 +37,7 @@
                 <b-card-text>
                   <p>{{index}}</p>
                   <p><span class ="left">OrderId :</span><span class="right">{{item.orderId}}</span></p>
-                  <p><span class ="left">No Of Items :</span><span class="right">{{item.Number_of_Items}}</span></p>
+                  <p><span class ="left">No Of Items :</span><span class="right">{{item.Items}}</span></p>
                   <p><span class ="left">Order Value :</span><span class="right">{{item.orderValue}}</span></p>
                   <p><span class ="left">Order Date :</span><span class="right">{{item.orderedDate}}</span></p>
                   <p><span class ="left">Order Status :</span><span class="right">{{item.orderStatus}}</span></p><br>
@@ -64,7 +64,7 @@
                 <b-card-text>
                   <p id="hide">{{index}}</p>
                   <p><span class ="left">OrderId :</span><span class="right">{{item.orderId}}</span></p>
-                  <p><span class ="left">No Of Items :</span><span class="right">{{item.Number_of_Items}}</span></p>
+                  <p><span class ="left">No Of Items :</span><span class="right">{{item.Items}}</span></p>
                   <p><span class ="left">Order Value :</span><span class="right">{{item.orderValue}}</span></p>
                   <p><span class ="left">Order Date :</span><span class="right">{{item.orderedDate}}</span></p>
                   <p><span class ="left">Order Status :</span><span class="right">{{item.orderStatus}}</span></p><br>
@@ -83,15 +83,7 @@
             </b-tabs>       
         </b-card>  
       </b-tab>
-    
-
     </b-tabs>
-
-
-
-
-
-
 
 </div>
 </template>
